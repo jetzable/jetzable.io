@@ -1,0 +1,21 @@
+{
+  "name": "pruebaparticlesjs",
+  "version": "1.0.0",
+  "description": "Introduction to particleJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "particlejs",
+    "particles",
+    "npm",
+    "javascript"
+  ],
+  "author": "Palmidia Garay",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.4.1",
+    "particles.js": "^2.0.0"
+  }
+}
