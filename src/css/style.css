@@ -1,13 +1,13 @@
-html,
-body,
 .container-fluid {
   height: 100vh;
   font-family: "Nova Slim", cursive;
+  font-size: 1.1em;
 }
 
 .card {
   width: 50%;
   background-color: transparent;
+  border: 0;
 }
 
 .card-img-top {
@@ -15,9 +15,13 @@ body,
   width: 70%;
 }
 
+.contact-icons a {
+  color: #303841;
+}
+
 #particles-js {
   width: 100%;
   height: 100vh;
-  background-color: black;
-  color: antiquewhite;
+  background-color: #ea9215;
+  color: #303841;
 }
