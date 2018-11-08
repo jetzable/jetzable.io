@@ -1,22 +1,14 @@
 html,
-body {
-  height: 100vh;
-  background: #ea9215; /* fallback for old browsers */
-}
-
-#particles-js {
-  width: 100%;
-  background-color: #ea9215;
-  color: #303841;
-}
-
+body,
 .container-fluid {
   height: 100vh;
   font-family: "Nova Slim", cursive;
   font-size: 1.1em;
-  color: aliceblue;
 }
 
+.row {
+  height: 100vh;
+}
 .btn-group {
   width: 80%;
 }
@@ -30,7 +22,7 @@ h1 {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 80rem;
 }
@@ -185,4 +177,27 @@ h1 {
     width: 100%;
     margin: 0 0 2rem 0;
   }
+}
+
+.overlay-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#overlay-content-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  vertical-align: -webkit-baseline-middle;
+  margin: 2em;
+}
+
+#particles-js {
+  width: 100%;
+  background-color: #ea9215;
+  color: #303841;
 }
